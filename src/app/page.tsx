@@ -9,6 +9,7 @@ import { ComboboxDemo } from "@/components/ComboboxDemo";
 import { CommandDemo } from "@/components/CommandDemo";
 import { DatePickerDemo } from "@/components/DatePickerDemo";
 import { DialogDemo } from "@/components/DialogDemo";
+import { DropdownMenuDemo } from "@/components/DropdownMenuDemo";
 import HoverCardDemo from "@/components/HoverCardDemo";
 import MenubarDemo from "@/components/MenubarDemo";
 import { ModeToggle } from "@/components/ModeToggle";
@@ -86,6 +87,11 @@ export default function Home() {
         <div className=" w-[40%] text-center flex flex-col gap-3">
           Popover Demo
           <PopoverDemo />
+        </div>
+        {/* ________________ DropdownMenuDemo ____________________ */}
+        <div className=" w-[40%] text-center flex flex-col gap-3">
+          Dropdown Menu Demo
+          <DropdownMenuDemo />
         </div>
       </div>
       <div className=" flex gap-10 mt-5">
