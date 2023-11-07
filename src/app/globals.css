@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #fafafa;
+    --foreground: #1a171b;
+    --card: white;
+    --card-foreground: #44454d;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: #717d12;
+    --primary-hover: #50590e;
+    --primary-foreground: #fafafa;
+    --secondary: #a61e32;
+    --secondary-foreground: #fafafa;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: #a61e32;
+    --destructive-foreground: #fafafa;
+    --destructive-hover: #7f1d1d;
+    --border: #717d12;
+    --input: #717d12;
+    --place-holder: #94a3b8;
+    --ring: #717d12;
+    --slider-background: #cecece;
+
+    --radius: 0 px;
+  }
+
+  .dark {
+    --background: #1a171b;
+    --foreground: #fafafa;
+    --card: #44454d;
+    --card-foreground: #fafafa;
+    --popover: 0 0% 9%;
+    --popover-foreground: #c5ccde;
+    --primary: #799e2f;
+    --primary-hover: #85af33;
+    --primary-foreground: #fafafa;
+    --secondary: #b21020;
+    --secondary-foreground: #fafafa;
+    --muted: 0 0% 15%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: #b21020;
+    --destructive-foreground: #fafafa;
+    --destructive-hover: #7f1d1d;
+    --border: #717d12;
+    --input: #020617;
+    --place-holder: #94a3b8;
+    --ring: #717d12;
+    --radius: 0 px;
+    --slider-background: #8e8e8e;
+  }
+}
+.button-animation {
+  background: linear-gradient(to top, var(--primary) 50%, white 50%);
+  background-size: 100% 200%;
+  background-position: top;
+  transition: all 0.3s ease-out;
+}
+.button-animation-cancel {
+  background: linear-gradient(to top, var(--secondary) 50%, white 50%);
+  background-size: 100% 200%;
+  background-position: top;
+  transition: all 0.3s ease-out;
+}
+
+.button-animation:hover {
+  background-position: bottom;
+}
+.button-animation-cancel:hover {
+  background-position: bottom;
+}
