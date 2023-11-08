@@ -14,7 +14,10 @@ export function SliderDemo({ className, ...props }: SliderProps) {
   return (
     <Card className={cn("w-4/6")}>
       <CardHeader>
-        <CardTitle>{" Slider Demo"}</CardTitle>
+        <p className=" text-center font-default">{"N.46"}</p>
+        <CardTitle>
+          <p>Slider Demo</p>
+        </CardTitle>
         <CardDescription>Deploy your new project in one-click.</CardDescription>
       </CardHeader>
       <CardContent>

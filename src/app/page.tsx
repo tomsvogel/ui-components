@@ -38,82 +38,130 @@ export default function Home() {
       </div>
       {/* ________________ AccordionDemo____________________ */}
       <div className=" w-[40%] text-center">
-        Accordion Demo
-        <AccordionDemo />
+        <div> Accordion Demo</div>
+        <div className=" space-y-2">
+          <div>N.31</div>
+          <AccordionDemo />
+        </div>
       </div>
       {/* ________________ CardWithForm ____________________ */}
       <div>Card With Form</div>
       <div className="  text-center flex gap-5">
-        <CardWithForm title="Card with border" />
-        <CardWithForm
-          className=" border-none shadow-none"
-          title="Card without border"
-        />
+        <div className=" space-y-2">
+          <div>N.32</div>
+          <CardWithForm title="Card with border" />
+        </div>
+        <div className=" space-y-2">
+          <div>N.33</div>
+          <CardWithForm
+            className=" border-none shadow-none"
+            title="Card without border"
+          />
+        </div>
         {/* ________________ CheckboxDemo ____________________ */}
         <div className="  text-center">
-          <CheckboxDemo />
+          <div className=" space-y-2">
+            <div>N.34</div>
+            <CheckboxDemo />
+          </div>
         </div>
         {/* ________________ RadioGroupDemo ____________________ */}
         <div className="  text-center">
-          <RadioGroupDemo />
+          <div className=" space-y-2">
+            <div>N.35</div>
+            <RadioGroupDemo />
+          </div>
         </div>
       </div>
       {/* ________________ TabsDemo ____________________ */}
       <div>Tabs Demo</div>
       <div className="  text-center flex gap-5">
-        <TabsDemo title="Card with border" />
-        <TabsDemo
-          className=" border-none shadow-none"
-          title="Card without border"
-        />
+        <div className=" space-y-2">
+          <div>N.36</div>
+          <TabsDemo title="Card with border" />
+        </div>
+        <div className=" space-y-2">
+          <div>N.37</div>
+          <TabsDemo
+            className=" border-none shadow-none"
+            title="Card without border"
+          />
+        </div>
       </div>
       <div className=" flex gap-10">
         {/* ________________ CollapsibleDemo ____________________ */}
 
-        <div className=" w-[40%] grid justify-center items-center ">
-          <CollapsibleDemo />
+        <div className="  grid justify-center items-center ">
+          <div className=" space-y-2">
+            <div>N.38</div>
+            <CollapsibleDemo />
+          </div>
         </div>
         {/* ________________ ComboboxDemo ____________________ */}
-        <div className=" w-[40%] text-center">
+        <div className="  text-center">
           Combobox Demo
-          <ComboboxDemo />
+          <div className=" space-y-2">
+            <div>N.39</div>
+            <ComboboxDemo />
+          </div>
         </div>
         {/* ________________ CommandDemo ____________________ */}
-        <div className=" w-[40%] text-center">
+        <div className="  text-center">
           Command Demo
-          <CommandDemo />
+          <div className=" space-y-2">
+            <div>N.40</div>
+            <CommandDemo />
+          </div>
         </div>
         {/* ________________ PopoverDemo ____________________ */}
-        <div className=" w-[40%] text-center flex flex-col gap-3">
+        <div className="  text-center">
           Popover Demo
-          <PopoverDemo />
+          <div className=" space-y-2">
+            <div>N.40</div>
+            <PopoverDemo />
+          </div>
         </div>
         {/* ________________ DropdownMenuDemo ____________________ */}
-        <div className=" w-[40%] text-center flex flex-col gap-3">
+        <div className="  text-center ">
           Dropdown Menu Demo
-          <DropdownMenuDemo />
+          <div className=" space-y-2">
+            <div>N.41</div>
+            <DropdownMenuDemo />
+          </div>
         </div>
       </div>
       <div className=" flex gap-10 mt-5">
         {/* ________________ HoverCardDemo ____________________ */}
-        <div className=" w-[40%] text-center">
+        <div className="  text-center">
           Hover Card Demo
-          <HoverCardDemo />
+          <div className=" space-y-2">
+            <div>N.42</div>
+            <HoverCardDemo />
+          </div>
         </div>
         {/* ________________ AlertDialogDemo ____________________ */}
-        <div className=" w-[40%] text-center">
+        <div className="  text-center">
           Alert Dialog Demo
-          <AlertDialogDemo />
+          <div className=" space-y-2">
+            <div>N.43</div>
+            <AlertDialogDemo />
+          </div>
         </div>
         {/* ________________ DialogDemo ____________________ */}
-        <div className=" w-[40%] text-center">
+        <div className="  text-center">
           Dialog Demo
-          <DialogDemo />
+          <div className=" space-y-2">
+            <div>N.44</div>
+            <DialogDemo />
+          </div>
         </div>
         {/* ________________ SheetDemo ____________________ */}
-        <div className=" w-[40%] text-center">
+        <div className="  text-center">
           Sheet Demo
-          <SheetDemo />
+          <div className=" space-y-2">
+            <div>N.45</div>
+            <SheetDemo />
+          </div>
         </div>
       </div>
       <div className="w-1/2">
@@ -125,11 +173,17 @@ export default function Home() {
       <div className=" flex  gap-10">
         {/* ________________ DatePickerDemo ____________________ */}
         <div className=" w-1/2 ">
-          <DatePickerDemo />
+          <div className=" space-y-2">
+            <div className=" text-center">N.47</div>
+            <DatePickerDemo />
+          </div>
         </div>
         {/* ________________ CalendarDemo ____________________ */}
         <div className=" w-1/2 ">
-          <CalendarDemo />
+          <div className=" space-y-2 ">
+            <div className=" text-center">N.48</div>
+            <CalendarDemo />
+          </div>
         </div>
       </div>
     </div>
