@@ -3,11 +3,18 @@
 import * as React from "react";
 
 import { Calendar } from "@/components/ui/calendar";
+import de from "date-fns/locale/de";
 
 export function CalendarDemo() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
 
   return (
-    <Calendar mode="single" selected={date} onSelect={setDate} className=" " />
+    <Calendar
+      mode="single"
+      locale={de}
+      selected={date}
+      onSelect={setDate}
+      className=" "
+    />
   );
 }
