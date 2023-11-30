@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className=" bg-background">
+      <body className=" bg-background font-default">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

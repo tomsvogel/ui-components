@@ -177,8 +177,8 @@ export default function ButtonDemo() {
       <div className=" m-auto flex w-fit h-8 gap-10 ">
         <div className=" space-y-2">
           <div>N.24</div>
-          <Button variant="default" size={"icon"}>
-            <Icons.plus className="h-6 w-6" />
+          <Button className=" w-10 h-10" variant="default" size={"icon"}>
+            <Icons.plus className="h-8 w-8" />
           </Button>
         </div>
         <div className=" space-y-2">

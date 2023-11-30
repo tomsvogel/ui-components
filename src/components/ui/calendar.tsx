@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { DayPicker } from "react-day-picker";
+import de from "date-fns/locale/de";
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>;
 
@@ -53,9 +54,14 @@ function Calendar({
         ...classNames,
       }}
       components={{
-        IconLeft: ({ ...props }) => <ChevronLeft className="h-4 w-4" />,
-        IconRight: ({ ...props }) => <ChevronRight className="h-4 w-4" />,
+        IconLeft: ({ ...props }) => (
+          <ChevronLeft className="h-4 w-4 hover:text-white  " />
+        ),
+        IconRight: ({ ...props }) => (
+          <ChevronRight className="h-4 w-4 hover:text-white" />
+        ),
       }}
+      locale={de}
       {...props}
     />
   );

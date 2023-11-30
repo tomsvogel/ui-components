@@ -151,25 +151,50 @@ export function CheckboxDemo() {
       </CardHeader>
       <CardContent>
         <form className=" ">
-          <div className=" flex gap-2 my-3">
+          <div className=" flex gap-2 my-3 ">
             <Checkbox id="terms" />
-            <Label htmlFor="terms">Accept terms and conditions</Label>
+            <Label
+              className=" cursor-pointer hover:text-primary"
+              htmlFor="terms"
+            >
+              Accept terms and conditions
+            </Label>
           </div>
-          <div className=" flex gap-2  my-3">
+          <div className=" flex gap-2 my-3">
             <Checkbox id="terms1" />
-            <Label htmlFor="terms1">Accept terms and conditions</Label>
+            <Label
+              className=" cursor-pointer hover:text-primary"
+              htmlFor="terms1"
+            >
+              Accept terms and conditions
+            </Label>
           </div>
           <div className=" flex gap-2 my-3">
             <Checkbox id="terms2" />
-            <Label htmlFor="terms2">Accept terms and conditions</Label>
+            <Label
+              className=" cursor-pointer hover:text-primary"
+              htmlFor="terms2"
+            >
+              Accept terms and conditions
+            </Label>
           </div>
           <div className=" flex gap-2 my-3">
             <Checkbox id="terms3" />
-            <Label htmlFor="terms3">Accept terms and conditions</Label>
+            <Label
+              className=" cursor-pointer hover:text-primary"
+              htmlFor="terms3"
+            >
+              Accept terms and conditions
+            </Label>
           </div>
           <div className=" flex gap-2 my-3">
             <Checkbox id="terms4" />
-            <Label htmlFor="terms4">Accept terms and conditions</Label>
+            <Label
+              className=" cursor-pointer hover:text-primary"
+              htmlFor="terms4"
+            >
+              Accept terms and conditions
+            </Label>
           </div>
         </form>
       </CardContent>

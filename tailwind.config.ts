@@ -9,8 +9,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      default: ["Titillium", "sans-serif"],
-      manuale: ["Manuale", "serif"],
+      default: ["Titillium"],
+      manuale: ["Manuale"],
     },
     container: {
       center: true,

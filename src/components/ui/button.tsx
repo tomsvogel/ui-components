@@ -10,16 +10,16 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "  border border-primary  button-animation  dark:text-primary hover:text-primary-foreground dark:hover:text-primary-foreground",
+          " border border-primary  button-animation  dark:text-primary hover:text-primary-foreground dark:hover:text-primary-foreground",
         destructive:
           " border border-destructive  text-destructive button-animation-cancel focus-visible:ring-destructive dark:text-destructive hover:text-destructive-foreground dark:hover:text-destructive-foreground",
         primary:
-          "border border-primary bg-primary text-white  hover:scale-110 transition ease-in-out",
+          "border border-primary bg-primary text-white  hover:scale-105 transition ease-linear",
         secondary:
-          "bg-secondary text-secondary-foreground hover:scale-110 transition ease-in-out focus-visible:ring-secondary ",
+          "bg-secondary text-secondary-foreground hover:scale-105 transition ease-linear  focus-visible:ring-secondary",
         ghost:
           "hover:bg-accent hover:text-accent-foreground hover:text-primary",
-        link: "text-primary  hover:underline hover:text-primary  hover:scale-110 transition ease-in-out",
+        link: "underline hover:no-underline hover:text-primary",
         outline:
           "border border-primary bg-white dark:bg-background hover:bg-background hover:dark:bg-card ",
       },
@@ -27,7 +27,7 @@ const buttonVariants = cva(
         default: "h-10 px-4 py-2",
         sm: "text-sm min-w-[150px] px-5 py-2 ",
         lg: "min-w-button p-10 text-lg",
-        icon: "h-full w-full text-base",
+        icon: "h-10 w-10 text-base",
       },
     },
     defaultVariants: {
